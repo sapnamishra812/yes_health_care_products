@@ -1,0 +1,11 @@
+/* src/styles/custom.css */
+
+/* Hide scrollbar for the container */
+.overflow-x-hidden::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.overflow-x-hidden {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
